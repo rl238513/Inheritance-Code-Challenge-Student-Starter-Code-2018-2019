@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 
         myFirstDevice.name = UIDevice.current.name
         myFirstDevice.model = UIDevice.current.model
-        myFirstDevice.batteryLevel = UIDevice.current.batteryLevel
+        myFirstDevice.batteryLevel = Double(UIDevice.current.batteryLevel)
         myFirstDevice.systemVersion = UIDevice.current.systemVersion
 
         myFirstDevice.orientationIsPortrait = UIDevice.current.orientation.isPortrait
